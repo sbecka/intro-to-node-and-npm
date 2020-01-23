@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            // "program": "${workspaceFolder}\\index.js",
+            // "args": ["pulse"],
+            "program": "${workspaceFolder}/intro_to_node/buggy-script.js",
+            "args": ["./intro_to_node/source.txt", "./projects"], /* put the arguments here in separate string elements! */
+        }
+    ]
+}
